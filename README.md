@@ -69,7 +69,8 @@ Remember to copy and save the output of this command, which will be an encrypted
 $ ipython
 ```
 
-> ```
+> 
+```
 In [1]:from IPython.lib import passwd
 In [2]:passwd()
 sha1:592a57cc3224:f190f1a25eb5f878e329f5...
