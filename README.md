@@ -159,7 +159,7 @@ $ jupyter notebook
 ```
 
 ## 16. Access to your notebooks using the web interfaces
-- To open the web interfaces, in your browser's address bar, type master-public-dns followed by the port number or URL. You can access to your Notebook from anywhere through your browser. Just navigate to the DNS name, or Public IP of your instance, along with the port number (https://Public DNS:8888/). 
+- To open the web interfaces, in your browser's address bar, type master-public-dns followed by the port number or URL. You can access to your Notebook from anywhere through your browser. Just navigate to the DNS name, or Public IP of your instance, along with the port number (*https://Public_DNS_name:8888/*). 
 - Remember to update your URL to "https" because the browser by default adds "http" to such a URL.
 - You will be asked by your browser to trust the certificate, as you have signed it on your own, so you know that you can trust it.
 - Login using the password you specified when you used the iPython Terminal to create an encrypted version.
