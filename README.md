@@ -3,7 +3,7 @@ Steps for EC2 AWS instance access to jupyter notebooks from any browser for Wind
 
 
 
-# Run and login to Jupyter Notebook of Anaconda Environment installed in AWS Linux Instance from Windows using PuTTY
+# Run and login to Jupyter Notebook with Anaconda Environment installed in AWS Linux Instance from Windows using PuTTY
 
 > I hope everyone is familiar with the AWS (Amazon Web Services) and how to use Jupyter Notebook. If you are not familiar with this tool and you work with Python, I highly recommend you to learn it in order to not miss its importance in your future works.
 The deployment of Jupyter Notebook Server on AWS allows to access all created Notebooks from anywhere just using a browser.
