@@ -27,7 +27,7 @@ By finishing this step, check that you have edit the inbound rules of the securi
 | HTTPS | 443 |    Anywhere |
 
 
-## 3. Connecting to your Linux Instance from Windows Using PuTTY
+## 3. Connecting to your Linux Instance from Windows using PuTTY
 SSH into the EC2 instance for Windows users, you’ll need to use PuTTY. Amazon has a really good set of instructions located here: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html 
 
 Follow those to the point where you have the connection to the Ubuntu console.
@@ -75,7 +75,7 @@ sha1:592a57cc3224:f190f1a25eb5f878e329f5...
 ```
 
 
-## 9. Exit out from the iPython Terminal using "exit" command. 
+## 9. Exit out from the iPython Terminal using "exit" command
 > 
 ```
 In [3]:exit
