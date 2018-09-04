@@ -80,7 +80,7 @@ sha1:592a57cc3224:f190f1a25eb5f878e329f5...
 ## 9. Exit out from the iPython Terminal using "exit" command. 
 > 
 ```
-exit
+In [3]:exit
 ```
 
 ## 10. Create the configuration profile for our Jupyter Notebook server
