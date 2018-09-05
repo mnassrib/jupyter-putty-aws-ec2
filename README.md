@@ -1,4 +1,3 @@
-# python-jupyter-putty-EC2-aws
 Steps for ec2 aws instance access to jupyter notebook from any browser for windows users using putty console.
 
 # Run and login to Jupyter Notebook with Anaconda Environment installed in AWS Linux Instance from Windows using PuTTY
