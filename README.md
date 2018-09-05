@@ -66,15 +66,15 @@ $ ipython
 
 > 
 ```
-In [1]:from IPython.lib import passwd
-In [2]:passwd()
+In [1]: from IPython.lib import passwd
+In [2]: passwd()
 sha1:592a57cc3224:f190f1a25eb5f878e329f5...
 ```
 
 ## 9. Exit out from the iPython Terminal using "exit" command
 > 
 ```
-In [3]:exit
+In [3]: exit
 ```
 
 ## 10. Create the configuration profile for your jupyter notebook server
