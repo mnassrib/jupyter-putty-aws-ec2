@@ -14,7 +14,7 @@ The first step is to login to your Amazon Management Console. If you don't have 
 https://aws.amazon.com/free/
 
 
-## 2. Create an EC2 Instance with Ubuntu 
+## 2. Create an EC2 Instance on Ubuntu 
 Go to the EC2 main page, then you will see a '**Launch Instance**' button. If you are not familiar with how to create an EC2 instance, 
 you can check out the video given in this link: https://www.youtube.com/watch?v=q4PrYQOShnE, in which the author goes through the steps from the beginning. 
 
@@ -74,20 +74,20 @@ In [2]:passwd()
 sha1:592a57cc3224:f190f1a25eb5f878e329f5...
 ```
 
-
 ## 9. Exit out from the iPython Terminal using "exit" command
 > 
 ```
 In [3]:exit
 ```
 
-## 10. Create the configuration profile for our Jupyter Notebook server
+## 10. Create the configuration profile for your jupyter notebook server
 To configure the Jupyter Notebook server on your EC2 instance, you should create a configuration file. In the configuration file, you set some of the values to use for web authentication, including the SSL certificate file path, and a password.
 ```
 $ jupyter notebook --generate-config
 ```
 
 This command creates a configuration file (jupyter_notebook_config.py) in the ``~/.jupyter directory``.
+
 
 ## 11. SSL certificate 
 - Create a self-signed (SSL certificate) certificate for accessing to your Notebooks through HTTPS into a folder named as example 'certs'
@@ -108,16 +108,15 @@ that match patterns corresponding to the domains used by the Amazon EC2 instance
 For more details look at the following website link: 
 https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-connect-master-node-proxy.html
 
+
 ## 13. Update the configuration file to store your password and SSL certificate information
 ```
 $ cd ~/.jupyter/
 ```
-
 Open the .config file:
 ```
 $ vi jupyter_notebook_config.py
 ```
-
 Paste the following text at the end of the file and leave the rest commented as it is. You will need to provide your password hash.
 
 ```
@@ -132,7 +131,7 @@ c.NotebookApp.open_browser = False  #so that the ipython notebook does not opens
 c.NotebookApp.password = u'sha1:68c136a5b064...' #the encrypted password we generated above
 ```
 
-## 14. Set PuTTy to connect to the EC2 instance
+## 14. Update the putty parameters to access the EC2 instance
 - Open a second session to the same EC2 instance using PuTTY. 
 - In the Category pane, expand Connection, expand SSH, and then choose Tunnels. 
 - Complete the following to add new forwarded port:
