@@ -122,13 +122,13 @@ Paste the following text at the beginning or the end of the ``jupyter_notebook_c
 ```
 c = get_config()
 # Kernel config
-c.IPKernelApp.pylab = 'inline' #if you want plotting support always in your notebook
+c.IPKernelApp.pylab = 'inline' # if you want plotting support always in your notebook
 # Notebook config
-c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem' #location of your certificate file
-c.NotebookApp.keyfile = u'/home/ubuntu/certs/mycert.key' #location of your certificate key
+c.NotebookApp.certfile = u'/home/ubuntu/certs/mycert.pem' # location of your certificate file
+c.NotebookApp.keyfile = u'/home/ubuntu/certs/mycert.key' # location of your certificate key
 c.NotebookApp.ip = '*'
-c.NotebookApp.open_browser = False  #so that the ipython notebook does not opens up a browser by default
-c.NotebookApp.password = u'sha1:68c136a5b064...' #the encrypted password we generated above
+c.NotebookApp.open_browser = False  # so that the ipython notebook does not open a browser by default
+c.NotebookApp.password = u'sha1:68c136a5b064...' # the encrypted password you generated above
 ```
 
 ## 14. Update the putty parameters to access the EC2 instance
