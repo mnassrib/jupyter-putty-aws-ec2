@@ -7,7 +7,7 @@ According to this short tutorial, I'll list all the steps to create a Jupyter No
 
 ## 1. Create an AWS account
 
-The first step is to login to your Amazon Management Console. If you don't have an account yet, you can create one for it. You get one year of free access to some of the services, which you can check out at this link:
+The first step is to login to your Amazon Management Console. Sign up for an AWS account if you don't already have one. You get one year of free access to some of the services, which you can check out at this link:
 https://aws.amazon.com/free/
 
 
