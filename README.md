@@ -117,7 +117,7 @@ Open the .config file:
 ```
 $ vi jupyter_notebook_config.py
 ```
-Paste the following text at the end of the file and leave the rest commented as it is. You will need to provide your password hash.
+Paste the following text at the beginning or the end of the ``jupyter_notebook_config.py`` file and leave the rest commented. You will need to provide your hash password.
 
 ```
 c = get_config()
