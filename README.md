@@ -91,8 +91,8 @@ This command creates a configuration file (jupyter_notebook_config.py) in the ``
 - Connect to the EC2 instance then complete the following procedure. If you have set up a cluster of EC2 instances, connect to the master node.
 ```
 $ mkdir certs
-$ cd certs``
-$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mycert.key -out mycert.pem``
+$ cd certs
+$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mycert.key -out mycert.pem
 $ sudo chmod 400 mycert.pem
 ```
 
